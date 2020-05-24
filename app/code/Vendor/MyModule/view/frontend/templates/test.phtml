@@ -1,3 +1,5 @@
 <?php
-echo __('Hello Andrei');
+$currentCategory = $block->getCurrentCategory();
+echo $currentCategory->getName() . '<br />';
+echo $currentCategory->getUrl() ;
 ?>
